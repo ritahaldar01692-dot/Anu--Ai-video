@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anu AI Video Generator</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>🎬 Anu AI Video Generator</h1>
+
+<input type="file" id="image" accept="image/*">
+<img id="preview" style="width:100%;display:none;border-radius:10px;margin-top:10px;">
+<textarea id="script" placeholder="Write your script here..."></textarea>
+
+<select id="voice">
+  <option>English Voice</option>
+  <option>Hindi Voice</option>
+  <option>Bengali Voice</option>
+</select>
+
+<button id="generateBtn">Generate Video</button>
+
+<div id="status"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
