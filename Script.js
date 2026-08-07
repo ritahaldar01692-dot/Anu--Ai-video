@@ -1,3 +1,4 @@
+alert("Script Loaded");
 const generateBtn = document.getElementById("generateBtn");
 const status = document.getElementById("status");
 
